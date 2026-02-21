@@ -1,14 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-  <link rel="stylesheet" href="main.css">
-  <title>HTML Portfolio</title>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  Welcome to the HTML Portfolio Project
+<header>
+    <div class="container">
+        <nav>
+            <h2 class="logo">MyPortfolio</h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="home">
+    <div class="container">
+        <h1>Hello, I'm Your Name</h1>
+        <p>Web Developer | Designer | Creator</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate developer who enjoys building responsive,
+            user-friendly websites using modern technologies.
+        </p>
+    </div>
+</section>
+
+<section class="projects" id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>Responsive website built with HTML & CSS.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>Modern landing page design.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>Clean developer portfolio template.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Your Name | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
