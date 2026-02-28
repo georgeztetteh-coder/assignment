@@ -19,98 +19,66 @@
     <p>© 2026 ModernPortfolio. All rights reserved.</p>
   </div>
 </footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - George Tetteh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo"><h1>George Tetteh</h1></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main>
+    <!-- Title Section -->
+    <section id="about-title">
+      <div class="container">
+        <h2>About Me</h2>
+      </div>
+    </section>
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    <!-- First Two Column Section -->
+    <section class="two-column">
+      <div class="container">
+        <div class="column">
+          <img src="images/image1.jpg" alt="About Image 1">
+        </div>
+        <div class="column">
+          <p>Text about yourself goes here. Explain your background, skills, or journey.</p>
+        </div>
+      </div>
+    </section>
 
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
-}
+    <!-- Second Two Column Section -->
+    <section class="two-column">
+      <div class="container">
+        <div class="column">
+          <p>Additional info or achievements.</p>
+        </div>
+        <div class="column">
+          <img src="images/image2.jpg" alt="About Image 2">
+        </div>
+      </div>
+    </section>
+  </main>
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-}
-
-/* Header */
-header {
-  background-color: #222;
-  color: #fff;
-  padding: 1rem 0;
-}
-
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header nav ul {
-  display: flex;
-  list-style: none;
-  gap: 1rem;
-}
-
-header nav a {
-  color: white;
-  font-weight: bold;
-}
-
-header nav a:hover {
-  text-decoration: underline;
-}
-
-/* Footer */
-footer {
-  background-color: #222;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
-  margin-top: 2rem;
-}
-
-/* Sections */
-section {
-  padding: 4rem 0;
-}
-
-/* Buttons */
-.button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #0077cc;
-  color: #fff;
-  border-radius: 5px;
-  transition: 0.3s;
-}
-
-.button:hover {
-  background-color: #005fa3;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  header .container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  header nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
-  }
-}
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 George Tetteh</p>
+  </footer>
+</body>
+</html>
